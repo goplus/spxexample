@@ -1,0 +1,39 @@
+title = "spx examples"
+
+baseURL = ""
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = true
+
+theme = "hugo-theme-learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+themeVariant = "mine"
+
+description = "spx examples"
+showVisitedLinks = false
+disableSearch = false
+disableAssetsBusting = false
+disableInlineCopyToClipBoard = true
+disableShortcutsTitle = false
+disableLandingPageButton = true
+disableLanguageSwitchingButton = false
+disableBreadcrumb = false
+disableMermaid = false
+customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+disableNextPrev = false
+ordersectionsby = "weight"
+titleSeparator = "::"
+
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/goplus/spx"
+weight = 20
+
+[markup.goldmark.renderer]
+unsafe=true

@@ -1,0 +1,6 @@
+.idea
+public
+.DS_Store
+package-lock.json
+resources
+nohup.out
