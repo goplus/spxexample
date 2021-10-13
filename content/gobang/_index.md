@@ -7,8 +7,8 @@ tags: []
 description: "Play Gobang with your friends!"
 ---
 
-<center style="width=100%; height:360px">
-<iframe src="../gobang.html" style="width: 480px;height:360px;border:0" allow="autoplay"></iframe>
+<center style="width:100%; height:480px">
+<iframe src="../gobang.html" style="width:640px;height:480px; border:0" allow="autoplay"></iframe>
 </center>
 
 Play Gobang with your friends!

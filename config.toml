@@ -1,8 +1,8 @@
 title = "spx examples"
 
 baseURL = "https://goplus.qiniu.com/spx"
-languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"
+# languageCode = "zh-cn"
+# defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = true
 
 theme = "hugo-theme-learn"

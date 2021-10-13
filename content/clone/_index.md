@@ -4,7 +4,7 @@ menutitle: "03-Clone"
 date: 2021-10-12T16:42:21+08:00
 weight: 3
 tags: []
-description: "Through this example you can learn: clone sprites and destory them."
+description: "Through this example you can learn how to clone sprites and destory them."
 ---
 
 <center style="width:100%; height:360px">
