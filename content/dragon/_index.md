@@ -1,11 +1,11 @@
 ---
-title: "02-Dragon"
+title: "Dragon"
+menutitle: "02-Dragon"
 date: 2021-10-12T13:02:41+08:00
 weight: 2
 tags: []
+description: "Through this example you can learn how to define variables and show them on the stage."
 ---
-
-### tutorial/02-Dragon
 
 <center style="width:100%; height:360px">
 <iframe src="../dragon.html" style="width: 480px;height:360px; border:0" allow="autoplay"></iframe>
