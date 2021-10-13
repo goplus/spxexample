@@ -5,9 +5,9 @@ weight: 1
 
 ### tutorial/01-Weather
 
-<div style="width=100%; height:500px">
-<iframe src="../weather.html" style="width: 100%;height:100%;" allow="autoplay"></iframe>
-</div>
+<center style="width:100%; height:360px">
+<iframe src="../weather.html" style="width: 480px;height:360px; border:0" allow="autoplay"></iframe>
+</center>
 
 Through this example you can learn how to listen events and do somethings.
 
