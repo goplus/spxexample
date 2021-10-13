@@ -7,9 +7,9 @@ tags: []
 
 ### tutorial/02-Dragon
 
-<div style="width=100%; height:500px">
-<iframe src="../dragon.html" style="width: 100%;height:100%;" allow="autoplay"></iframe>
-</div>
+<center style="width:100%; height:360px">
+<iframe src="../dragon.html" style="width: 480px;height:360px; border:0" allow="autoplay"></iframe>
+</center>
 
 Through this example you can learn how to define variables and show them on the stage.
 

@@ -7,7 +7,7 @@ tags: []
 
 ### tutorial/05-Animation
 
-<div style="width=100%; height:500px">
-<iframe src="../animation.html" style="width: 100%;height:100%;" allow="autoplay"></iframe>
-</div>
+<center style="width:100%; height:720px">
+<iframe src="../animation.html" style="width: 202px;height:360px; border:0" allow="autoplay"></iframe>
+</center>
 

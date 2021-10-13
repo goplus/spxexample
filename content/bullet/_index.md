@@ -7,9 +7,9 @@ tags: []
 
 ### tutorial/04-Bullet
 
-<div style="width=100%; height:500px">
-<iframe src="../bullet.html" style="width: 100%;height:100%;" allow="autoplay"></iframe>
-</div>
+<center style="width:100%; height:360px">
+<iframe src="../bullet.html" style="width:202px; height:360px;border:0" allow="autoplay"></iframe>
+</center>
 
 Through this example you can learn:
 * How to keep a sprite following mouse position.
