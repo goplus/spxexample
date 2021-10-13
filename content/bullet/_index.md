@@ -1,11 +1,11 @@
 ---
-title: "04-Bullet"
+title: "Bullet"
+menutitle: "04-Bullet"
 date: 2021-10-12T16:59:10+08:00
 weight: 4
 tags: []
+description: "Through this example you can learn how to keep a sprite following mouse position and fire bullets."
 ---
-
-### tutorial/04-Bullet
 
 <center style="width:100%; height:360px">
 <iframe src="../bullet.html" style="width:202px; height:360px;border:0" allow="autoplay"></iframe>

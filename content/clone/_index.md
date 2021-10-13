@@ -1,11 +1,11 @@
 ---
-title: "03-Clone"
+title: "Clone"
+menutitle: "03-Clone"
 date: 2021-10-12T16:42:21+08:00
 weight: 3
 tags: []
+description: "Through this example you can learn: clone sprites and destory them."
 ---
-
-### tutorial/03-Clone
 
 <center style="width:100%; height:360px">
 <iframe src="../clone.html" style="width: 480px;height:360px; border:0" allow="autoplay"></iframe>
