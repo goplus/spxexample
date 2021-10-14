@@ -34,5 +34,9 @@ identifier = "ds"
 url = "https://github.com/goplus/spx"
 weight = 20
 
-[markup.goldmark.renderer]
-unsafe=true
+[markup]
+  [markup.highlight]
+    guessSyntax = true
+    style = 'github'
+  [markup.goldmark.renderer]
+    unsafe = true

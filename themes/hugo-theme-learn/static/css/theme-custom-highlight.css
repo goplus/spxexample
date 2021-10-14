@@ -1,5 +1,6 @@
 .highlight pre,
 .highlight code {
   background: #f6f8fa !important;
+  border-radius: 6px;
   line-height: 1.5;
 }
