@@ -22,9 +22,8 @@ disableShortcutsTitle = false
 disableLandingPageButton = true
 disableLanguageSwitchingButton = false
 disableBreadcrumb = false
-disableMermaid = false
-customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
-disableNextPrev = false
+disableMermaid = true
+disableNextPrev = true
 ordersectionsby = "weight"
 titleSeparator = "::"
 
