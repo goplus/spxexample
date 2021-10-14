@@ -13,7 +13,7 @@ description: "Through this example you can learn how to define variables and sho
 
 Through this example you can learn how to define variables and show them on the stage.
 
-Here are all the codes of [Dragon](tutorial/02-Dragon/Dragon.spx):
+Here are all the codes of [Dragon](https://github.com/goplus/spx/blob/main/tutorial/02-Dragon/Dragon.spx):
 
 ```go
 var (
@@ -36,7 +36,7 @@ onStart => {
 
 We define a variable named `score` for `Dragon`. After the program starts, it moves randomly. And every time it touches `Shark`, it gains one score.
 
-How to show the `score` on the stage? You don't need write code, just add a `stageMonitor` object into [res/index.json](tutorial/02-Dragon/res/index.json):
+How to show the `score` on the stage? You don't need write code, just add a `stageMonitor` object into [res/index.json](https://github.com/goplus/spx/blob/main/tutorial/02-Dragon/res/index.json):
 
 ```json
 {

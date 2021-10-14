@@ -15,7 +15,7 @@ Through this example you can learn:
 * How to keep a sprite following mouse position.
 * How to fire bullets.
 
-It's simple to keep a sprite following mouse position. Here are some related codes in [MyAircraft.spx](tutorial/04-Bullet/MyAircraft.spx):
+It's simple to keep a sprite following mouse position. Here are some related codes in [MyAircraft.spx](https://github.com/goplus/spx/blob/main/tutorial/04-Bullet/MyAircraft.spx):
 
 
 ```go
@@ -29,7 +29,7 @@ onStart => {
 
 Yes, we just need to call `setXYpos mouseX, mouseY` to follow mouse position.
 
-But how to fire bullets? Let's see all codes of [MyAircraft.spx](tutorial/04-Bullet/MyAircraft.spx):
+But how to fire bullets? Let's see all codes of [MyAircraft.spx](https://github.com/goplus/spx/blob/main/tutorial/04-Bullet/MyAircraft.spx):
 
 ```go
 onStart => {
@@ -43,7 +43,7 @@ onStart => {
 
 In this example, `MyAircraft` fires bullets every 0.1 seconds. It just calls `Bullet.clone` to create a new bullet. All the rest things are the responsibility of `Bullet`.
 
-Here are all the codes in [Bullet.spx](tutorial/04-Bullet/Bullet.spx):
+Here are all the codes in [Bullet.spx](https://github.com/goplus/spx/blob/main/tutorial/04-Bullet/Bullet.spx):
 
 ```go
 onCloned => {
