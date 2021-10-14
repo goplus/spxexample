@@ -17,7 +17,7 @@ Through this example you can learn:
 
 Here are some codes in [Calf.spx](tutorial/03-Clone/Calf.spx):
 
-```coffee
+```go
 var (
 	id int
 )
@@ -39,7 +39,7 @@ In `onCloned` event, the new `Calf` sprite uses a variable named `gid`. It doesn
 
 Here are all the codes of [index.gmx](tutorial/03-Clone/index.gmx):
 
-```coffee
+```go
 var (
 	Arrow Arrow
 	Calf  Calf
@@ -53,7 +53,7 @@ All these three variables in [index.gmx](tutorial/03-Clone/index.gmx) are shared
 
 Let's back to [Calf.spx](tutorial/03-Clone/Calf.spx) to see the full codes of `onCloned`:
 
-```coffee
+```go
 onCloned => {
 	gid++
 	id = gid
@@ -68,7 +68,7 @@ Why these `Calf` sprites need different `id`? Because we want destory one of the
 
 Here are all the codes in [Arrow.spx](tutorial/03-Clone/Arrow.spx):
 
-```coffee
+```go
 onClick => {
 	broadcast "undo", true
 	gid--
@@ -79,7 +79,7 @@ When we click `Arrow`, it broadcasts an "undo" message (NOTE: We pass the second
 
 All `Calf` sprites receive this message, but only the last cloned sprite finds its `id` is equal to `gid` then destroys itself. Here are the related codes in [Calf.spx](tutorial/03-Clone/Calf.spx):
 
-```coffee
+```go
 onMsg "undo", => {
 	if id == gid {
 		destroy

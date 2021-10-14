@@ -15,7 +15,7 @@ Through this example you can learn how to define variables and show them on the 
 
 Here are all the codes of [Dragon](tutorial/02-Dragon/Dragon.spx):
 
-```coffee
+```go
 var (
 	score int
 )

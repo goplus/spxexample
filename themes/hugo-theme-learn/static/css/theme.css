@@ -625,15 +625,13 @@ section.attachments.grey .attachments-files {
 
 code, kbd, pre, samp {
     font-family: "Consolas", menlo, monospace;
-    font-size: 92%;
+    font-size: 85%;
 }
 code {
-    border-radius: 2px;
+    border-radius: 6px;
     white-space: nowrap;
-    color: #5e5e5e;
-    background: #FFF7DD;
-    border: 1px solid #fbf0cb;
-    padding: 0px 2px;
+    background: rgba(175, 184, 193, 0.2);
+    padding: .2em .4em;
 }
 code + .copy-to-clipboard {
     margin-left: -1px;
@@ -646,7 +644,7 @@ code + .copy-to-clipboard {
 pre {
     padding: 1rem;
     margin: 2rem 0;
-    background: #282c34;
+    background: #f6f8fa;
     border: 0;
     border-radius: 2px;
     line-height: 1.15;

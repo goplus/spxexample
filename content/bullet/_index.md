@@ -18,7 +18,7 @@ Through this example you can learn:
 It's simple to keep a sprite following mouse position. Here are some related codes in [MyAircraft.spx](tutorial/04-Bullet/MyAircraft.spx):
 
 
-```coffee
+```go
 onStart => {
 	for {
 		# ...
@@ -31,7 +31,7 @@ Yes, we just need to call `setXYpos mouseX, mouseY` to follow mouse position.
 
 But how to fire bullets? Let's see all codes of [MyAircraft.spx](tutorial/04-Bullet/MyAircraft.spx):
 
-```coffee
+```go
 onStart => {
 	for {
 		wait 0.1
@@ -45,7 +45,7 @@ In this example, `MyAircraft` fires bullets every 0.1 seconds. It just calls `Bu
 
 Here are all the codes in [Bullet.spx](tutorial/04-Bullet/Bullet.spx):
 
-```coffee
+```go
 onCloned => {
 	setXYpos MyAircraft.xpos, MyAircraft.ypos+5
 	show
