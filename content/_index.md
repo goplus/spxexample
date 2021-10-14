@@ -9,7 +9,6 @@ title: "spx examples"
 [comment]: <> ({{% children description=true %}})
 
 
-
 #### [Weather](https://goplus.qiniu.com/spx/weather/)
  Through this example you can learn how to listen events and do somethings.
 
@@ -33,3 +32,6 @@ title: "spx examples"
 
 #### [Go](https://goplus.qiniu.com/spx/go/)
  Play Go chess with your friends!
+ 
+#### [Dinosaur](https://goplus.qiniu.com/spx/dinorsaur/)
+ A dinosaur running in the desert!
