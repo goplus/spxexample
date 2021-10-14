@@ -10,7 +10,7 @@ weight: 1
 
 Through this example you can learn how to listen events and do somethings.
 
-Here are some codes in [Kai.spx](tutorial/01-Weather/Kai.spx):
+Here are some codes in [Kai.spx](https://github.com/goplus/spx/blob/main/tutorial/01-Weather/Kai.spx):
 
 ```go
 onStart => {
@@ -35,7 +35,7 @@ onMsg "4", => {
 
 We call `onStart` and `onMsg` to listen events. `onStart` is called when the program is started. And `onMsg` is called when someone calls `broadcast` to broadcast a message.
 
-When the program starts, Kai says `Where do you come from?`, and then broadcasts the message `1`. Who will recieve this message? Let's see codes in [Jaime.spx](tutorial/01-Weather/Jaime.spx):
+When the program starts, Kai says `Where do you come from?`, and then broadcasts the message `1`. Who will recieve this message? Let's see codes in [Jaime.spx](https://github.com/goplus/spx/blob/main/tutorial/01-Weather/Jaime.spx):
 
 ```go
 onMsg "1", => {
