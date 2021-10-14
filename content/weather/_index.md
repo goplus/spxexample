@@ -12,7 +12,7 @@ Through this example you can learn how to listen events and do somethings.
 
 Here are some codes in [Kai.spx](tutorial/01-Weather/Kai.spx):
 
-```coffee
+```go
 onStart => {
 	setCostume "kai-a"
 	play recordingWhere
@@ -37,7 +37,7 @@ We call `onStart` and `onMsg` to listen events. `onStart` is called when the pro
 
 When the program starts, Kai says `Where do you come from?`, and then broadcasts the message `1`. Who will recieve this message? Let's see codes in [Jaime.spx](tutorial/01-Weather/Jaime.spx):
 
-```coffee
+```go
 onMsg "1", => {
 	play recordingComeFrom
 	say "I come from England.", 2
