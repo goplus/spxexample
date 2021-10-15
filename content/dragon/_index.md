@@ -7,8 +7,8 @@ tags: []
 description: "Through this example you can learn how to define variables and show them on the stage."
 ---
 
-<center style="width:100%; height:360px">
-<iframe src="../dragon.html" style="width: 480px;height:360px; border:0" allow="autoplay"></iframe>
+<center style="width:100%; height:360px;">
+<iframe src="../dragon.html" style="width: 480px;height:360px; border:0;" allow="autoplay"></iframe>
 </center>
 
 Through this example you can learn how to define variables and show them on the stage.
