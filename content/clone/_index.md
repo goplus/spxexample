@@ -8,7 +8,7 @@ description: "Through this example you can learn how to clone sprites and destor
 ---
 
 <center style="width:100%; height:360px">
-<iframe src="../clone.html" style="width: 480px;height:360px; border:0" allow="autoplay"></iframe>
+<iframe src="../clone.html" style="width: 479px;height:359px; border:0" allow="autoplay"></iframe>
 </center>
 
 Through this example you can learn:
