@@ -4,7 +4,7 @@ menutitle: "01-Weather"
 description: "Through this example you can learn how to listen events and do somethings."
 weight: 1
 ---
-<center style="width:100%; height:360px">
+<center>
 <iframe src="../weather.html" style="width: 480px;height:360px; border:0" allow="autoplay"></iframe>
 </center>
 

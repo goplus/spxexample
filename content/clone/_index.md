@@ -7,7 +7,7 @@ tags: []
 description: "Through this example you can learn how to clone sprites and destory them."
 ---
 
-<center style="width:100%; height:360px">
+<center>
 <iframe src="../clone.html" style="width: 479px;height:359px; border:0" allow="autoplay"></iframe>
 </center>
 

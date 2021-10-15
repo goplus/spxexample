@@ -7,7 +7,7 @@ tags: []
 description: "Play Go chess with your friends!"
 ---
 
-<center style="width:100%; height:480px">
+<center>
 <iframe src="../go.html" style="width:640px;height:480px; border:0" allow="autoplay"></iframe>
 </center>
 
