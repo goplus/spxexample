@@ -8,7 +8,7 @@ description: "A dinosaur running in the desert!"
 ---
 
 <center style="width:100%; height:360px">
-<iframe src="../dinosaur.html" style="width: 480px;height:360px; border:0" allow="autoplay"></iframe>
+<iframe src="../dinosaur.html" style="width: 479px;height:359px; border:0" allow="autoplay"></iframe>
 </center>
 
 A dinosaur running in the desert!
