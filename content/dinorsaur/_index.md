@@ -7,7 +7,7 @@ tags: []
 description: "A dinosaur running in the desert!"
 ---
 
-<center style="width:100%; height:360px">
+<center>
 <iframe src="../dinosaur.html" style="width: 479px;height:359px; border:0" allow="autoplay"></iframe>
 </center>
 

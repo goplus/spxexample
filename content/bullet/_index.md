@@ -7,8 +7,8 @@ tags: []
 description: "Through this example you can learn how to keep a sprite following mouse position and fire bullets."
 ---
 
-<center style="width:100%; height:360px">
-<iframe src="../bullet.html" style="width: 202px;height:359px;" allow="autoplay"></iframe>
+<center>
+<iframe src="../bullet.html" style="width: 202px;height:359px; border:0;" allow="autoplay"></iframe>
 </center>
 
 Through this example you can learn:

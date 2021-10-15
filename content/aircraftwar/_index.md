@@ -7,7 +7,7 @@ tags: []
 description: "A completed aircraft war game, more enemies and more bullets!"
 ---
 
-<center style="width:100%; height:360px">
+<center>
 <iframe src="../aircraftwar.html" style="width: 480px;height:360px; border:0" allow="autoplay"></iframe>
 </center>
 

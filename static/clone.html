@@ -1,4 +1,20 @@
 <!DOCTYPE html>
+<html>
+<head>
+  <style>
+    html, body, canvas {
+      height: 100% !important;
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: 0 !important;
+      outline: 0 !important;
+      background: none !important;
+      overflow: hidden !important;
+    }
+  </style>
+</head>
+<body>
 <script src="wasm_exec.js"></script>
 <script>
 if (!WebAssembly.instantiateStreaming) {
@@ -16,3 +32,5 @@ if (!WebAssembly.instantiateStreaming) {
     await go.run(inst)
   });
 </script>
+</body>
+</html>
